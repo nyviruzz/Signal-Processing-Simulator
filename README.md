@@ -1,1 +1,1 @@
-# Signal-Processing-Simulator
+A terminal-based DSP analysis tool built from scratch in C++17. Manages multi-channel signal buffers using hand-written singly linked lists and performs real-time filtering, Fourier analysis, and power metrics, no external signal processing libraries. This project simulates a multi-channel sensor signal pipeline. Signal samples are stored in dynamically balanced linked-list buffers. A menu-driven interface lets an operator add samples, apply FIR filters, compute the DFT spectrum, and measure SNR all in real time.
